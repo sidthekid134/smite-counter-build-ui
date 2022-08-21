@@ -1,6 +1,7 @@
 import 'dart:collection';
 
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:smite_counter_build/models/counter_build_data.dart';
 import 'package:smite_counter_build/models/gods_metadata.dart';
 import 'dart:convert';
 import 'package:collection/collection.dart';
@@ -27,7 +28,7 @@ Future<List<ItemsMetadata>> getItemsMetadata() async {
   return itemsMetadata;
 }
 
-Future<List<Map<String, double>>> getCounterBuild(GodsMetadata playerGod,
+Future<CounterBuildData?> getCounterBuild(GodsMetadata playerGod,
     GodsMetadata opponentGod, SmiteRole playerRole) async {
   String counterBuildDataRaw =
       await rootBundle.loadString('assets/resultData.json');
@@ -40,9 +41,14 @@ Future<List<Map<String, double>>> getCounterBuild(GodsMetadata playerGod,
             ?[playerGod.id.toString()]?['Opponent']?[opponentGod.id.toString()]
         ?['CounterBuilds']?['Items'];
   } catch (e) {
-    return [];
+    return null;
   }
 
+  CounterBuildData counterBuildData = CounterBuildData(
+      counterBuild: [],
+      numMatchesEvaluated: counterBuildDataJson[playerRole.value]
+              ?[playerGod.id.toString()]?['Opponent']
+          ?[opponentGod.id.toString()]['NumMatchesEvaluated']);
   List<Map<String, int>> counterItemsForThisGodList = [];
   counterItemsForThisGodJson.forEach((itemSlotInfo) {
     Map<String, int> itemSlotConverted = {};
@@ -53,15 +59,25 @@ Future<List<Map<String, double>>> getCounterBuild(GodsMetadata playerGod,
     counterItemsForThisGodList.add(itemSlotConverted);
   });
 
-  return counterItemsForThisGodList.map((itemSlotInfo) {
-    int totalValue = itemSlotInfo.values.sum;
+  List<Map<String, double>> percentageFromat =
+      counterItemsForThisGodList.map((itemSlotInfo) {
+    int totalValue = 0;
+    itemSlotInfo.values.forEach((int e) {
+      totalValue += e;
+    });
     Map<String, double> itemSlotConverted = {};
     for (var item in itemSlotInfo.keys) {
-      itemSlotConverted[item] = (itemSlotInfo[item]! / totalValue) * 100;
+      itemSlotConverted[item] =
+          ((itemSlotInfo[item]! / totalValue) * 100).roundToDouble();
     }
     Map<String, double> sortMapByValue = Map.fromEntries(
         itemSlotConverted.entries.toList()
           ..sort((e1, e2) => e2.value.compareTo(e1.value)));
+
     return sortMapByValue;
   }).toList();
+
+  counterBuildData.counterBuild = percentageFromat;
+
+  return counterBuildData;
 }

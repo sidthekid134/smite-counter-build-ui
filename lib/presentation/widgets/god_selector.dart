@@ -43,44 +43,50 @@ class GodSelectorField extends StatelessWidget {
             ),
             itemSorter: (a, b) => 1,
             itemFilter: (suggestion, input) =>
-                suggestion.name.toLowerCase().contains(input.toLowerCase()),
+                suggestion.name.toLowerCase().startsWith(input.toLowerCase()),
             itemSubmitted: onGodSelection,
           ),
         ),
         const SizedBox(width: 20),
-        Container(
-          child: Flexible(
-            flex: 1,
-            child: thisGodMetadata != null
-                ? CachedNetworkImage(
-                    imageUrl: thisGodMetadata!.godIconURL,
-                    progressIndicatorBuilder:
-                        (context, url, downloadProgress) =>
-                            CircularProgressIndicator(
-                                value: downloadProgress.progress),
-                  )
-                : Container(),
-          ),
+        Flexible(
+          flex: 1,
+          child: thisGodMetadata != null
+              ? CachedNetworkImage(
+                  imageUrl: thisGodMetadata!.godIconURL,
+                  progressIndicatorBuilder: (context, url, downloadProgress) =>
+                      CircularProgressIndicator(
+                          value: downloadProgress.progress),
+                )
+              : Container(),
         ),
+        playerRolekey != null
+            ? const Padding(
+                padding: EdgeInsets.only(left: 20.0),
+                child: Text("Role:"),
+              )
+            : Container(),
         playerRolekey != null
             ? Flexible(
                 flex: 1,
-                child: AutoCompleteTextField<SmiteRole>(
-                  key: playerRolekey!,
-                  suggestions: SmiteRole.values,
-                  // decoration: const InputDecoration(errorText: "Role Not Found!"),
-                  controller: TextEditingController(text: playerRole?.value),
-                  itemBuilder: (context, suggestion) => Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: ListTile(
-                      title: Text(suggestion.value),
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 8.0),
+                  child: AutoCompleteTextField<SmiteRole>(
+                    key: playerRolekey!,
+                    suggestions: SmiteRole.values,
+                    // decoration: const InputDecoration(errorText: "Role Not Found!"),
+                    controller: TextEditingController(text: playerRole?.value),
+                    itemBuilder: (context, suggestion) => Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: ListTile(
+                        title: Text(suggestion.value),
+                      ),
                     ),
+                    itemSorter: (a, b) => 1,
+                    itemFilter: (suggestion, input) => suggestion.value
+                        .toLowerCase()
+                        .contains(input.toLowerCase()),
+                    itemSubmitted: onPlayerRoleSection,
                   ),
-                  itemSorter: (a, b) => 1,
-                  itemFilter: (suggestion, input) => suggestion.value
-                      .toLowerCase()
-                      .contains(input.toLowerCase()),
-                  itemSubmitted: onPlayerRoleSection,
                 ),
               )
             : Container(),

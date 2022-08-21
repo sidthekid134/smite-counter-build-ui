@@ -2,12 +2,10 @@ import 'package:autocomplete_textfield/autocomplete_textfield.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:smite_counter_build/business_logic/smite_bloc/smite_cubit.dart';
 import 'package:smite_counter_build/data/smite.dart';
+import 'package:smite_counter_build/models/counter_build_data.dart';
 import 'package:smite_counter_build/models/gods_metadata.dart';
 import 'package:smite_counter_build/models/items_metadata.dart';
-import 'package:easy_autocomplete/easy_autocomplete.dart';
 import 'package:smite_counter_build/models/smite_constants.dart';
 import 'package:smite_counter_build/presentation/widgets/god_selector.dart';
 
@@ -37,12 +35,14 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {
       godsMetadata = loadedGodData;
       itemsMetadata = loadedItemData;
-      // playerGod = loadedGodData.firstWhere((element) => element.id == 1966);
-      // opponentGod = loadedGodData.firstWhere((element) => element.id == 4039);
+      playerGod = loadedGodData.firstWhere((element) => element.id == 1966);
+      opponentGod = loadedGodData.firstWhere((element) => element.id == 4039);
+      playerRole = SmiteRole.solo;
     });
   }
 
-  Widget _buildItemSlotWidget(Map<String, double> itemSlotInfo) {
+  Widget _buildItemSlotWidget(
+      Map<String, double> itemSlotInfo, int numMatchesEvaluated) {
     List<Widget> widgets = itemSlotInfo.keys.map((itemId) {
       ItemsMetadata itemInfo = itemsMetadata!
           .firstWhere((element) => element.itemId == int.parse(itemId));
@@ -52,7 +52,10 @@ class _HomeScreenState extends State<HomeScreen> {
         height: 80,
         child: Row(
           children: [
-            CachedNetworkImage(imageUrl: itemInfo.itemIconURL),
+            Tooltip(
+              message: itemInfo.deviceName,
+              child: CachedNetworkImage(imageUrl: itemInfo.itemIconURL),
+            ),
             const SizedBox(width: 20),
             Text("${itemSlotInfo[itemId]}%")
           ],
@@ -63,6 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Expanded(
       flex: 2,
       child: Container(
+        // height: 50,
         child: Column(
           mainAxisSize: MainAxisSize.max,
           children: widgets,
@@ -73,17 +77,34 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<Widget> _getCounterBuild(GodsMetadata playerGod,
       GodsMetadata opponentGod, SmiteRole playerRole) async {
-    List<Map<String, double>> counterBuildForThisGodJson =
+    CounterBuildData? counterBuildData =
         await getCounterBuild(playerGod, opponentGod, playerRole);
+
+    if (counterBuildData == null) {
+      return Column(
+        children: [const Text("No build found for this matchup, good luck.")],
+      );
+    }
+
     List<Widget> allCounterBuildWidgets =
-        counterBuildForThisGodJson.map((Map<String, double> itemSlotInfo) {
-      return _buildItemSlotWidget(itemSlotInfo);
+        counterBuildData.counterBuild!.map((Map<String, double> itemSlotInfo) {
+      return _buildItemSlotWidget(
+          itemSlotInfo, counterBuildData.numMatchesEvaluated!);
     }).toList();
-    return Row(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: allCounterBuildWidgets.isNotEmpty
-          ? allCounterBuildWidgets
-          : [const Text("No build found for this matchup, good luck.")],
+    return Column(
+      children: [
+        allCounterBuildWidgets.isNotEmpty
+            ? Text(
+                "Found ${counterBuildData.numMatchesEvaluated} total builds for this matchup.")
+            : Container(),
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: allCounterBuildWidgets.isNotEmpty
+              ? allCounterBuildWidgets
+              : [const Text("No build found for this matchup, good luck.")],
+        ),
+        Container()
+      ],
     );
   }
 
@@ -117,50 +138,57 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         actions: const [],
       ),
-      body: SafeArea(
-        minimum: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const SizedBox(height: 30),
-            const Text("Select your god & Role"),
-            GodSelectorField(
-              fieldKey: playerGodFieldKey,
-              godsMetadata: godsMetadata,
-              thisGodMetadata: playerGod,
-              onGodSelection: (item) => setState(() => playerGod = item),
-              playerRolekey: playerRolekey,
-              playerRole: playerRole,
-              onPlayerRoleSection: (item) => setState(() => playerRole = item),
-            ),
-            const SizedBox(height: 50),
-            const Text("Select Opponent god"),
-            GodSelectorField(
-              fieldKey: opponentGodFieldKey,
-              godsMetadata: godsMetadata,
-              thisGodMetadata: opponentGod,
-              onGodSelection: (item) => setState(() => opponentGod = item),
-            ),
-            const SizedBox(height: 100),
-            const Text("Best Counter Build"),
-            (playerGod != null && opponentGod != null && playerRole != null)
-                ? Expanded(
-                    child: FutureBuilder<Widget>(
-                        future: _getCounterBuild(
-                            playerGod!, opponentGod!, playerRole!),
-                        initialData: const Text("Loading counter build.."),
-                        builder: (BuildContext context,
-                            AsyncSnapshot<Widget> buildWidget) {
-                          if (buildWidget.connectionState ==
-                              ConnectionState.done) {
-                            return buildWidget.data!;
-                          }
-                          return Container();
-                        }),
-                  )
-                : Container(),
-          ],
+      body: SingleChildScrollView(
+        child: SafeArea(
+          minimum: const EdgeInsets.fromLTRB(32.0, 32.0, 32.0, 0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const SizedBox(height: 30),
+              const Text("Select your god & Role"),
+              Container(
+                height: 100,
+                child: GodSelectorField(
+                  fieldKey: playerGodFieldKey,
+                  godsMetadata: godsMetadata,
+                  thisGodMetadata: playerGod,
+                  onGodSelection: (item) => setState(() => playerGod = item),
+                  playerRolekey: playerRolekey,
+                  playerRole: playerRole,
+                  onPlayerRoleSection: (item) =>
+                      setState(() => playerRole = item),
+                ),
+              ),
+              const SizedBox(height: 50),
+              const Text("Select Opponent god"),
+              Container(
+                height: 100,
+                child: GodSelectorField(
+                  fieldKey: opponentGodFieldKey,
+                  godsMetadata: godsMetadata,
+                  thisGodMetadata: opponentGod,
+                  onGodSelection: (item) => setState(() => opponentGod = item),
+                ),
+              ),
+              const SizedBox(height: 100),
+              const Text("Best Counter Build"),
+              (playerGod != null && opponentGod != null && playerRole != null)
+                  ? FutureBuilder<Widget>(
+                      future: _getCounterBuild(
+                          playerGod!, opponentGod!, playerRole!),
+                      initialData: const Text("Loading counter build.."),
+                      builder: (BuildContext context,
+                          AsyncSnapshot<Widget> buildWidget) {
+                        if (buildWidget.connectionState ==
+                            ConnectionState.done) {
+                          return buildWidget.data!;
+                        }
+                        return Container();
+                      })
+                  : Container(),
+            ],
+          ),
         ),
       ),
     );
