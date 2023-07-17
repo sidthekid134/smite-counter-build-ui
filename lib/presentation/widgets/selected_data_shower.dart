@@ -1,4 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class SelectedDataShower extends StatelessWidget {
@@ -22,7 +23,9 @@ class SelectedDataShower extends StatelessWidget {
     if (assetUrl.contains("http")) {
       imageWidget = CachedNetworkImage(imageUrl: assetUrl, height: 50);
     } else {
-      imageWidget = Image.asset(assetUrl, height: 50);
+      imageWidget = Image.asset(
+          "${(kDebugMode && kIsWeb) ? "" : "assets/"}$assetUrl",
+          height: 50);
     }
 
     return SizedBox(

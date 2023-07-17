@@ -203,6 +203,13 @@
         "id": 1921
     },
     {
+        "Name": "Charon",
+        "Roles": "Guardian",
+        "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/charon.jpg",
+        "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/charon.jpg",
+        "id": 4268
+    },
+    {
         "Name": "Charybdis",
         "Roles": "Hunter",
         "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/charybdis.jpg",
@@ -292,6 +299,13 @@
         "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/eset.jpg",
         "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/eset.jpg",
         "id": 1918
+    },
+    {
+        "Name": "Fafnir",
+        "Roles": "Guardian",
+        "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/fafnir.jpg",
+        "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/fafnir.jpg",
+        "id": 2136
     },
     {
         "Name": "Fenrir",
@@ -413,6 +427,13 @@
         "id": 4137
     },
     {
+        "Name": "Ix Chel",
+        "Roles": "Mage",
+        "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/ix-chel.jpg",
+        "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/ix-chel.jpg",
+        "id": 4242
+    },
+    {
         "Name": "Izanami",
         "Roles": "Hunter",
         "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/izanami.jpg",
@@ -495,6 +516,13 @@
         "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/loki.jpg",
         "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/loki.jpg",
         "id": 1797
+    },
+    {
+        "Name": "Martichoras",
+        "Roles": "Hunter",
+        "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/martichoras.jpg",
+        "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/martichoras.jpg",
+        "id": 4213
     },
     {
         "Name": "Maui",
@@ -609,6 +637,13 @@
         "id": 3543
     },
     {
+        "Name": "Persephone",
+        "Roles": "Mage",
+        "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/persephone.jpg",
+        "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/persephone.jpg",
+        "id": 3705
+    },
+    {
         "Name": "Poseidon",
         "Roles": "Mage",
         "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/poseidon.jpg",
@@ -705,6 +740,13 @@
         "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/sun-wukong.jpg",
         "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/sun-wukong.jpg",
         "id": 1944
+    },
+    {
+        "Name": "Surtr",
+        "Roles": "Warrior",
+        "godCard_URL": "https://webcdn.hirezstudios.com/smite/god-cards/surtr.jpg",
+        "godIcon_URL": "https://webcdn.hirezstudios.com/smite/god-icons/surtr.jpg",
+        "id": 4191
     },
     {
         "Name": "Susano",

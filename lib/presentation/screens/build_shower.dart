@@ -12,8 +12,14 @@ class BuildShower extends StatelessWidget {
 
   Widget _buildItemSlotWidget(Map<String, double> itemSlotInfo) {
     List<Widget> widgets = itemSlotInfo.keys.map((itemId) {
-      ItemsMetadata itemInfo = itemsMetadata
-          .firstWhere((element) => element.itemId == int.parse(itemId));
+      ItemsMetadata itemInfo;
+      try {
+        itemInfo = itemsMetadata
+            .firstWhere((element) => element.itemId == int.parse(itemId));
+      } catch (e) {
+        return Container();
+      }
+
       return Container(
         padding: const EdgeInsets.only(bottom: 20.0),
         height: 80,
@@ -107,7 +113,6 @@ class BuildShower extends StatelessWidget {
                   "${counterBuildData.numMatchesEvaluated} Builds Matched",
                   style: TextStyle(
                     color: Theme.of(context).colorScheme.secondary,
-                    // fontWeight: FontWeight.bold,
                     fontSize: 15,
                   ),
                 ),

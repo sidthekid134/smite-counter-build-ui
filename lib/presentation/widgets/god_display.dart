@@ -1,7 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:smite_counter_build/business_logic/smite_bloc/smite_cubit.dart';
 import 'package:smite_counter_build/models/gods_metadata.dart';
 
 class GodBox extends StatefulWidget {

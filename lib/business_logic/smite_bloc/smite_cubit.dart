@@ -12,24 +12,24 @@ class SmiteCubit extends Cubit<UserSelectionData> {
   SmiteCubit()
       : super(
           UserSelectionData(
-            playerRole: SmiteRole.jungle,
-            playerGod: GodsMetadata(
-                name: "Arachne",
-                roles: "Assassin",
-                godCardURL:
-                    "https://webcdn.hirezstudios.com/smite/god-cards/arachne.jpg",
-                godIconURL:
-                    "https://webcdn.hirezstudios.com/smite/god-icons/arachne.jpg",
-                id: 1699),
-            // opponentGod: GodsMetadata(
-            //     name: "Loki",
-            //     roles: "Assassin",
-            //     godCardURL:
-            //         "https://webcdn.hirezstudios.com/smite/god-cards/loki.jpg",
-            //     godIconURL:
-            //         "https://webcdn.hirezstudios.com/smite/god-icons/loki.jpg",
-            //     id: 1797),
-          ),
+              // playerRole: SmiteRole.jungle,
+              // playerGod: GodsMetadata(
+              //     name: "Arachne",
+              //     roles: "Assassin",
+              //     godCardURL:
+              //         "https://webcdn.hirezstudios.com/smite/god-cards/arachne.jpg",
+              //     godIconURL:
+              //         "https://webcdn.hirezstudios.com/smite/god-icons/arachne.jpg",
+              //     id: 1699),
+              // opponentGod: GodsMetadata(
+              //     name: "Loki",
+              //     roles: "Assassin",
+              //     godCardURL:
+              //         "https://webcdn.hirezstudios.com/smite/god-cards/loki.jpg",
+              //     godIconURL:
+              //         "https://webcdn.hirezstudios.com/smite/god-icons/loki.jpg",
+              //     id: 1797),
+              ),
         );
 
   void addUserRole(SmiteRole role) {

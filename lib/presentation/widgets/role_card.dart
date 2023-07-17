@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:smite_counter_build/business_logic/smite_bloc/smite_cubit.dart';
@@ -49,7 +50,8 @@ class _RoleCardState extends State<RoleCard> {
                   child: FractionallySizedBox(
                       widthFactor: 0.65,
                       heightFactor: 0.65,
-                      child: Image.asset(widget.imagePath)),
+                      child: Image.asset(
+                          "${(kDebugMode && kIsWeb) ? "" : "assets/"}${widget.imagePath}")),
                 ),
               ),
               Text(

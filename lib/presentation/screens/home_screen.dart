@@ -1,19 +1,14 @@
-import 'package:autocomplete_textfield/autocomplete_textfield.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:smite_counter_build/business_logic/smite_bloc/smite_cubit.dart';
 import 'package:smite_counter_build/data/smite.dart';
-import 'package:smite_counter_build/models/counter_build_data.dart';
 import 'package:smite_counter_build/models/gods_metadata.dart';
 import 'package:smite_counter_build/models/items_metadata.dart';
-import 'package:smite_counter_build/models/smite_constants.dart';
 import 'package:smite_counter_build/models/user_selection_data.dart';
 import 'package:smite_counter_build/presentation/screens/build_shower.dart';
 import 'package:smite_counter_build/presentation/screens/player_role_selector.dart';
 import 'package:smite_counter_build/presentation/screens/god_selector.dart';
-import 'package:smite_counter_build/presentation/widgets/role_card.dart';
 import 'package:smite_counter_build/presentation/widgets/selected_data_shower.dart';
 
 class HomeScreen extends StatefulWidget {

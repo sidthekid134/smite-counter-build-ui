@@ -281,12 +281,12 @@
         "allChildrenItems": [
             7522,
             7523,
+            23858,
             7828,
-            7829,
             7904,
             21507,
             22940,
-            11111
+            24170
         ]
     },
     {
@@ -297,7 +297,8 @@
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/warriors-bane.jpg",
         "ChildItemId": 7827,
         "allChildrenItems": [
-            7523
+            7523,
+            23858
         ]
     },
     {
@@ -308,11 +309,10 @@
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/heavy-mace.jpg",
         "ChildItemId": 7827,
         "allChildrenItems": [
-            7829,
             7904,
             21507,
             22940,
-            11111
+            24170
         ]
     },
     {
@@ -322,15 +322,6 @@
         "ItemId": 7523,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/titans-bane.jpg",
         "ChildItemId": 7522,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 7827,
-        "DeviceName": "Brawler's Beat Stick",
-        "ItemId": 7829,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/brawlers-beat-stick.jpg",
-        "ChildItemId": 7828,
         "allChildrenItems": []
     },
     {
@@ -349,8 +340,17 @@
         "ActiveFlag": "y",
         "RootItemId": 7827,
         "DeviceName": "The Crusher",
-        "ItemId": 11111,
+        "ItemId": 23858,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/the-crusher.jpg",
+        "ChildItemId": 7522,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 7827,
+        "DeviceName": "Brawler's Beat Stick",
+        "ItemId": 24170,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/brawlers-beat-stick.jpg",
         "ChildItemId": 7828,
         "allChildrenItems": []
     },
@@ -454,6 +454,24 @@
     },
     {
         "ActiveFlag": "y",
+        "RootItemId": 9828,
+        "DeviceName": "Bewitched Dagger",
+        "ItemId": 24726,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/bewitched-dagger.jpg",
+        "ChildItemId": 13187,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 9828,
+        "DeviceName": "Eldritch Dagger",
+        "ItemId": 24727,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/eldritch-dagger.jpg",
+        "ChildItemId": 13187,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
         "RootItemId": 7922,
         "DeviceName": "Evolved Transcendence",
         "ItemId": 15767,
@@ -510,7 +528,9 @@
             21500,
             21501,
             8546,
-            14855
+            14855,
+            12674,
+            23854
         ]
     },
     {
@@ -525,7 +545,9 @@
             21500,
             21501,
             8546,
-            14855
+            14855,
+            12674,
+            23854
         ]
     },
     {
@@ -550,6 +572,24 @@
         "allChildrenItems": [
             14855
         ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 9812,
+        "DeviceName": "Demon Blade",
+        "ItemId": 12674,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/demon-blade.jpg",
+        "ChildItemId": 9813,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 9812,
+        "DeviceName": "Bladed Boomerang",
+        "ItemId": 23854,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/bladed-boomerang.jpg",
+        "ChildItemId": 9813,
+        "allChildrenItems": []
     },
     {
         "ActiveFlag": "y",
@@ -678,11 +718,13 @@
         "ChildItemId": 0,
         "allChildrenItems": [
             8239,
-            7910,
-            8240,
             13187,
+            24726,
+            24727,
+            24175,
+            24190,
             18190,
-            14846
+            24189
         ]
     },
     {
@@ -693,9 +735,11 @@
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/adventurers-blade.jpg",
         "ChildItemId": 9828,
         "allChildrenItems": [
-            7910,
-            8240,
-            13187
+            13187,
+            24726,
+            24727,
+            24175,
+            24190
         ]
     },
     {
@@ -706,26 +750,8 @@
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/cursed-blade.jpg",
         "ChildItemId": 9828,
         "allChildrenItems": [
-            14846
+            24189
         ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 9828,
-        "DeviceName": "Witchblade",
-        "ItemId": 7910,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/witchblade.jpg",
-        "ChildItemId": 8239,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 9828,
-        "DeviceName": "Winged Blade",
-        "ItemId": 8240,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/winged-blade.jpg",
-        "ChildItemId": 8239,
-        "allChildrenItems": []
     },
     {
         "ActiveFlag": "y",
@@ -734,15 +760,36 @@
         "ItemId": 13187,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/relic-dagger.jpg",
         "ChildItemId": 8239,
+        "allChildrenItems": [
+            24726,
+            24727
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 9828,
+        "DeviceName": "Winged Blade",
+        "ItemId": 24175,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/winged-blade.jpg",
+        "ChildItemId": 8239,
         "allChildrenItems": []
     },
     {
         "ActiveFlag": "y",
         "RootItemId": 9828,
         "DeviceName": "Toxic Blade",
-        "ItemId": 14846,
+        "ItemId": 24189,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/toxic-blade.jpg",
         "ChildItemId": 18190,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 9828,
+        "DeviceName": "Lotus Sickle",
+        "ItemId": 24190,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/lotus-sickle.jpg",
+        "ChildItemId": 8239,
         "allChildrenItems": []
     },
     {
@@ -754,11 +801,11 @@
         "ChildItemId": 0,
         "allChildrenItems": [
             9831,
-            7589,
-            8959,
-            14083,
-            12677,
-            14096
+            23862,
+            24176,
+            24177,
+            24728,
+            24839
         ]
     },
     {
@@ -769,27 +816,27 @@
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/heavy-hammer.jpg",
         "ChildItemId": 9830,
         "allChildrenItems": [
-            7589,
-            8959
+            23862,
+            24176,
+            24177,
+            24728,
+            24839
         ]
     },
     {
         "ActiveFlag": "y",
         "RootItemId": 9830,
-        "DeviceName": "Shillelagh",
-        "ItemId": 14083,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/shillelagh.jpg",
-        "ChildItemId": 9830,
-        "allChildrenItems": [
-            12677,
-            14096
-        ]
+        "DeviceName": "Dawnbringer",
+        "ItemId": 23862,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/dawnbringer.jpg",
+        "ChildItemId": 9831,
+        "allChildrenItems": []
     },
     {
         "ActiveFlag": "y",
         "RootItemId": 9830,
         "DeviceName": "Frostbound Hammer",
-        "ItemId": 7589,
+        "ItemId": 24176,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/frostbound-hammer.jpg",
         "ChildItemId": 9831,
         "allChildrenItems": []
@@ -798,27 +845,30 @@
         "ActiveFlag": "y",
         "RootItemId": 9830,
         "DeviceName": "Runeforged Hammer",
-        "ItemId": 8959,
+        "ItemId": 24177,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/runeforged-hammer.jpg",
         "ChildItemId": 9831,
+        "allChildrenItems": [
+            24728,
+            24839
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 9830,
+        "DeviceName": "Flameforged Hammer",
+        "ItemId": 24728,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/flameforged-hammer.jpg",
+        "ChildItemId": 24177,
         "allChildrenItems": []
     },
     {
         "ActiveFlag": "y",
         "RootItemId": 9830,
-        "DeviceName": "The Sledge",
-        "ItemId": 12677,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/the-sledge.jpg",
-        "ChildItemId": 14083,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 9830,
-        "DeviceName": "Blackthorn Hammer",
-        "ItemId": 14096,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/blackthorn-hammer.jpg",
-        "ChildItemId": 14083,
+        "DeviceName": "Runebreaking Hammer",
+        "ItemId": 24839,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/runebreaking-hammer.jpg",
+        "ChildItemId": 24177,
         "allChildrenItems": []
     },
     {
@@ -830,11 +880,9 @@
         "ChildItemId": 0,
         "allChildrenItems": [
             8566,
-            8549,
-            14085,
             16544,
-            9834,
-            9836
+            23853,
+            23863
         ]
     },
     {
@@ -845,48 +893,10 @@
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/tower-shield.jpg",
         "ChildItemId": 9833,
         "allChildrenItems": [
-            8549,
-            14085,
-            16544
+            16544,
+            23853,
+            23863
         ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 9833,
-        "DeviceName": "Spiked Shield",
-        "ItemId": 9834,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/spiked-shield.jpg",
-        "ChildItemId": 9833,
-        "allChildrenItems": [
-            9836
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 9833,
-        "DeviceName": "Shifter's Shield",
-        "ItemId": 8549,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/shifters-shield.jpg",
-        "ChildItemId": 8566,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 9833,
-        "DeviceName": "Void Shield",
-        "ItemId": 9836,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/void-shield.jpg",
-        "ChildItemId": 9834,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 9833,
-        "DeviceName": "Gladiator's Shield",
-        "ItemId": 14085,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/gladiators-shield.jpg",
-        "ChildItemId": 8566,
-        "allChildrenItems": []
     },
     {
         "ActiveFlag": "y",
@@ -899,6 +909,24 @@
     },
     {
         "ActiveFlag": "y",
+        "RootItemId": 9833,
+        "DeviceName": "Gladiator's Shield",
+        "ItemId": 23853,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/gladiators-shield.jpg",
+        "ChildItemId": 8566,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 9833,
+        "DeviceName": "Phalanx",
+        "ItemId": 23863,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/phalanx.jpg",
+        "ChildItemId": 8566,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
         "RootItemId": 9837,
         "DeviceName": "Breastplate",
         "ItemId": 9837,
@@ -906,12 +934,12 @@
         "ChildItemId": 0,
         "allChildrenItems": [
             9838,
-            7578,
             7641,
             21483,
             21503,
-            12664,
-            17467
+            23873,
+            24187,
+            24188
         ]
     },
     {
@@ -922,22 +950,13 @@
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/silver-breastplate.jpg",
         "ChildItemId": 9837,
         "allChildrenItems": [
-            7578,
             7641,
             21483,
             21503,
-            12664,
-            17467
+            23873,
+            24187,
+            24188
         ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 9837,
-        "DeviceName": "Hide of the Nemean Lion",
-        "ItemId": 7578,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/hide-of-the-nemean-lion.jpg",
-        "ChildItemId": 9838,
-        "allChildrenItems": []
     },
     {
         "ActiveFlag": "y",
@@ -954,8 +973,17 @@
     {
         "ActiveFlag": "y",
         "RootItemId": 9837,
+        "DeviceName": "Contagion",
+        "ItemId": 23873,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/contagion.jpg",
+        "ChildItemId": 9838,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 9837,
         "DeviceName": "Spectral Armor",
-        "ItemId": 12664,
+        "ItemId": 24187,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/spectral-armor.jpg",
         "ChildItemId": 9838,
         "allChildrenItems": []
@@ -963,9 +991,9 @@
     {
         "ActiveFlag": "y",
         "RootItemId": 9837,
-        "DeviceName": "Contagion",
-        "ItemId": 17467,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/contagion.jpg",
+        "DeviceName": "Breastplate of Regrowth",
+        "ItemId": 24188,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/breastplate-of-regrowth.jpg",
         "ChildItemId": 9838,
         "allChildrenItems": []
     },
@@ -1011,9 +1039,8 @@
             7935,
             22945,
             22991,
-            9843,
-            9338,
-            15646
+            24168,
+            24172
         ]
     },
     {
@@ -1038,19 +1065,9 @@
         "allChildrenItems": [
             7935,
             22945,
-            22991
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 9840,
-        "DeviceName": "Armored Cloak",
-        "ItemId": 9843,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/armored-cloak.jpg",
-        "ChildItemId": 9840,
-        "allChildrenItems": [
-            9338,
-            15646
+            22991,
+            24168,
+            24172
         ]
     },
     {
@@ -1063,17 +1080,6 @@
         "allChildrenItems": [
             22945,
             22991
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 9840,
-        "DeviceName": "Hide of the Urchin",
-        "ItemId": 9338,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/hide-of-the-urchin.jpg",
-        "ChildItemId": 9843,
-        "allChildrenItems": [
-            15646
         ]
     },
     {
@@ -1097,6 +1103,17 @@
     {
         "ActiveFlag": "y",
         "RootItemId": 9840,
+        "DeviceName": "Prophetic Cloak",
+        "ItemId": 24168,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/prophetic-cloak.jpg",
+        "ChildItemId": 9842,
+        "allChildrenItems": [
+            24172
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 9840,
         "DeviceName": "Magi's Shelter",
         "ItemId": 22945,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/magis-shelter.jpg",
@@ -1115,10 +1132,10 @@
     {
         "ActiveFlag": "y",
         "RootItemId": 9840,
-        "DeviceName": "Evolved Hide of the Urchin",
-        "ItemId": 15646,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/evolved-hide-of-the-urchin.jpg",
-        "ChildItemId": 9338,
+        "DeviceName": "Evolved Prophetic Cloak",
+        "ItemId": 24172,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/evolved-prophetic-cloak.jpg",
+        "ChildItemId": 24168,
         "allChildrenItems": []
     },
     {
@@ -1130,12 +1147,12 @@
         "ChildItemId": 0,
         "allChildrenItems": [
             9846,
-            8540,
-            9364,
             11116,
             21504,
             21505,
-            15619
+            15619,
+            23864,
+            23870
         ]
     },
     {
@@ -1146,31 +1163,13 @@
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/silver-talisman.jpg",
         "ChildItemId": 9844,
         "allChildrenItems": [
-            8540,
-            9364,
             11116,
             21504,
             21505,
-            15619
+            15619,
+            23864,
+            23870
         ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 9844,
-        "DeviceName": "Bulwark of Hope",
-        "ItemId": 8540,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/bulwark-of-hope.jpg",
-        "ChildItemId": 9846,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 9844,
-        "DeviceName": "Pestilence",
-        "ItemId": 9364,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/pestilence.jpg",
-        "ChildItemId": 9846,
-        "allChildrenItems": []
     },
     {
         "ActiveFlag": "y",
@@ -1190,6 +1189,24 @@
         "DeviceName": "Talisman of Energy",
         "ItemId": 15619,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/talisman-of-energy.jpg",
+        "ChildItemId": 9846,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 9844,
+        "DeviceName": "Absolution",
+        "ItemId": 23864,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/absolution.jpg",
+        "ChildItemId": 9846,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 9844,
+        "DeviceName": "Pestilence",
+        "ItemId": 23870,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/pestilence.jpg",
         "ChildItemId": 9846,
         "allChildrenItems": []
     },
@@ -1223,7 +1240,7 @@
             8564,
             9351,
             14840,
-            18191
+            23869
         ]
     },
     {
@@ -1237,7 +1254,7 @@
             8564,
             9351,
             14840,
-            18191
+            23869
         ]
     },
     {
@@ -1270,9 +1287,9 @@
     {
         "ActiveFlag": "y",
         "RootItemId": 9847,
-        "DeviceName": "Ring of Hecate",
-        "ItemId": 18191,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/ring-of-hecate.jpg",
+        "DeviceName": "Cyclopean Ring",
+        "ItemId": 23869,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/cyclopean-ring.jpg",
         "ChildItemId": 9848,
         "allChildrenItems": []
     },
@@ -1286,10 +1303,10 @@
         "allChildrenItems": [
             9850,
             18179,
+            18180,
             9851,
-            7832,
             12670,
-            18180
+            24103
         ]
     },
     {
@@ -1300,7 +1317,8 @@
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/spell-focus.jpg",
         "ChildItemId": 9849,
         "allChildrenItems": [
-            18179
+            18179,
+            18180
         ]
     },
     {
@@ -1311,19 +1329,9 @@
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/enchanted-spear.jpg",
         "ChildItemId": 9849,
         "allChildrenItems": [
-            7832,
             12670,
-            18180
+            24103
         ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 9849,
-        "DeviceName": "Divine Ruin",
-        "ItemId": 7832,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/divine-ruin.jpg",
-        "ChildItemId": 9851,
-        "allChildrenItems": []
     },
     {
         "ActiveFlag": "y",
@@ -1349,6 +1357,15 @@
         "DeviceName": "Spear of the Magus",
         "ItemId": 18180,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/spear-of-the-magus.jpg",
+        "ChildItemId": 9850,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 9849,
+        "DeviceName": "Divine Ruin",
+        "ItemId": 24103,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/divine-ruin.jpg",
         "ChildItemId": 9851,
         "allChildrenItems": []
     },
@@ -1363,8 +1380,6 @@
             9856,
             7917,
             15724,
-            9857,
-            9345,
             14081,
             7594,
             8599
@@ -1385,20 +1400,9 @@
     {
         "ActiveFlag": "y",
         "RootItemId": 9855,
-        "DeviceName": "Rod of Healing",
-        "ItemId": 9857,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/rod-of-healing.jpg",
-        "ChildItemId": 9855,
-        "allChildrenItems": [
-            9345
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 9855,
-        "DeviceName": "Fortified Scepter",
+        "DeviceName": "Fortified Staff",
         "ItemId": 14081,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/fortified-scepter.jpg",
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/fortified-staff.jpg",
         "ChildItemId": 9855,
         "allChildrenItems": [
             7594,
@@ -1437,15 +1441,6 @@
     {
         "ActiveFlag": "y",
         "RootItemId": 9855,
-        "DeviceName": "Rod of Asclepius",
-        "ItemId": 9345,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/rod-of-asclepius.jpg",
-        "ChildItemId": 9857,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 9855,
         "DeviceName": "Evolved Warlock's Staff",
         "ItemId": 15724,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/evolved-warlocks-staff.jpg",
@@ -1465,7 +1460,7 @@
             15725,
             7597,
             9128,
-            14080
+            23871
         ]
     },
     {
@@ -1480,7 +1475,7 @@
             15725,
             7597,
             9128,
-            14080
+            23871
         ]
     },
     {
@@ -1515,9 +1510,9 @@
     {
         "ActiveFlag": "y",
         "RootItemId": 9858,
-        "DeviceName": "Book of the Dead",
-        "ItemId": 14080,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/book-of-the-dead.jpg",
+        "DeviceName": "Tablet of Destinies",
+        "ItemId": 23871,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/tablet-of-destinies.jpg",
         "ChildItemId": 9859,
         "allChildrenItems": []
     },
@@ -1646,136 +1641,6 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 10190,
-        "DeviceName": "Enchanted Buckler",
-        "ItemId": 10190,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/enchanted-buckler.jpg",
-        "ChildItemId": 0,
-        "allChildrenItems": [
-            9835,
-            9111,
-            13277,
-            18195
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 10190,
-        "DeviceName": "Warded Shield",
-        "ItemId": 9835,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/warded-shield.jpg",
-        "ChildItemId": 10190,
-        "allChildrenItems": [
-            9111,
-            13277,
-            18195
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 10190,
-        "DeviceName": "Runic Shield",
-        "ItemId": 9111,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/runic-shield.jpg",
-        "ChildItemId": 9835,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 10190,
-        "DeviceName": "Ancile",
-        "ItemId": 13277,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/ancile.jpg",
-        "ChildItemId": 9835,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 10190,
-        "DeviceName": "Caduceus Shield",
-        "ItemId": 18195,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/caduceus-shield.jpg",
-        "ChildItemId": 9835,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 10603,
-        "DeviceName": "Imperial Helmet",
-        "ItemId": 10603,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/imperial-helmet.jpg",
-        "ChildItemId": 0,
-        "allChildrenItems": [
-            10602,
-            10600,
-            11110,
-            14179,
-            10605,
-            18199
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 10603,
-        "DeviceName": "Jade Mountain Helm",
-        "ItemId": 10602,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/jade-mountain-helm.jpg",
-        "ChildItemId": 10603,
-        "allChildrenItems": [
-            10600,
-            11110,
-            14179
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 10603,
-        "DeviceName": "Dynasty Plate Helm",
-        "ItemId": 10605,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/dynasty-plate-helm.jpg",
-        "ChildItemId": 10603,
-        "allChildrenItems": [
-            18199
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 10603,
-        "DeviceName": "Celestial Legion Helm",
-        "ItemId": 10600,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/celestial-legion-helm.jpg",
-        "ChildItemId": 10602,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 10603,
-        "DeviceName": "Lotus Crown",
-        "ItemId": 11110,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/lotus-crown.jpg",
-        "ChildItemId": 10602,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 10603,
-        "DeviceName": "Jade Emperor's Crown",
-        "ItemId": 14179,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/jade-emperors-crown.jpg",
-        "ChildItemId": 10602,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 10603,
-        "DeviceName": "Tyrannical Plate Helm",
-        "ItemId": 18199,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/tyrannical-plate-helm.jpg",
-        "ChildItemId": 10605,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
         "RootItemId": 10662,
         "DeviceName": "Short Bow",
         "ItemId": 10662,
@@ -1785,7 +1650,6 @@
             10687,
             10482,
             14848,
-            10664,
             14084,
             14849
         ]
@@ -1809,7 +1673,6 @@
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/hunters-bow.jpg",
         "ChildItemId": 10662,
         "allChildrenItems": [
-            10664,
             14084,
             14849
         ]
@@ -1821,15 +1684,6 @@
         "ItemId": 10482,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/odysseus-bow.jpg",
         "ChildItemId": 10687,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 10662,
-        "DeviceName": "Ichaival",
-        "ItemId": 10664,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/ichaival.jpg",
-        "ChildItemId": 14848,
         "allChildrenItems": []
     },
     {
@@ -1870,10 +1724,10 @@
             7571,
             7572,
             9839,
-            9112,
             12665,
             15594,
-            20217
+            20217,
+            23974
         ]
     },
     {
@@ -1895,10 +1749,10 @@
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/emerald-mail.jpg",
         "ChildItemId": 12663,
         "allChildrenItems": [
-            9112,
             12665,
             15594,
-            20217
+            20217,
+            23974
         ]
     },
     {
@@ -1908,15 +1762,6 @@
         "ItemId": 7572,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/stone-of-gaia.jpg",
         "ChildItemId": 7571,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 12663,
-        "DeviceName": "Shield of Regrowth",
-        "ItemId": 9112,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/shield-of-regrowth.jpg",
-        "ChildItemId": 9839,
         "allChildrenItems": []
     },
     {
@@ -1941,45 +1786,11 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 12667,
-        "DeviceName": "Shuriken",
-        "ItemId": 12667,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/shuriken.jpg",
-        "ChildItemId": 0,
-        "allChildrenItems": [
-            12668,
-            12674,
-            18905
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 12667,
-        "DeviceName": "8-Pointed Shuriken",
-        "ItemId": 12668,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/8-pointed-shuriken.jpg",
-        "ChildItemId": 12667,
-        "allChildrenItems": [
-            12674,
-            18905
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 12667,
-        "DeviceName": "Wind Demon",
-        "ItemId": 12674,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/wind-demon.jpg",
-        "ChildItemId": 12668,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 12667,
-        "DeviceName": "Shadowsteel Shuriken",
-        "ItemId": 18905,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/shadowsteel-shuriken.jpg",
-        "ChildItemId": 12668,
+        "RootItemId": 12663,
+        "DeviceName": "Cannoneer's Cuirass",
+        "ItemId": 23974,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/cannoneers-cuirass.jpg",
+        "ChildItemId": 9839,
         "allChildrenItems": []
     },
     {
@@ -1991,10 +1802,10 @@
         "ChildItemId": 0,
         "allChildrenItems": [
             12672,
-            12673,
             14850,
             16592,
-            19003
+            19003,
+            23868
         ]
     },
     {
@@ -2005,20 +1816,11 @@
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/thousand-fold-blade.jpg",
         "ChildItemId": 12671,
         "allChildrenItems": [
-            12673,
             14850,
             16592,
-            19003
+            19003,
+            23868
         ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 12671,
-        "DeviceName": "Stone Cutting Sword",
-        "ItemId": 12673,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/stone-cutting-sword.jpg",
-        "ChildItemId": 12672,
-        "allChildrenItems": []
     },
     {
         "ActiveFlag": "y",
@@ -2044,6 +1846,15 @@
         "DeviceName": "Serrated Edge",
         "ItemId": 19003,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/serrated-edge.jpg",
+        "ChildItemId": 12672,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 12671,
+        "DeviceName": "Shadowdrinker",
+        "ItemId": 23868,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/shadowdrinker.jpg",
         "ChildItemId": 12672,
         "allChildrenItems": []
     },
@@ -2145,22 +1956,11 @@
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/druid-stone.jpg",
         "ChildItemId": 0,
         "allChildrenItems": [
-            9853,
-            7791,
             14072,
-            20224,
-            14175
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 14071,
-        "DeviceName": "Ward Stone",
-        "ItemId": 9853,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/ward-stone.jpg",
-        "ChildItemId": 14071,
-        "allChildrenItems": [
-            7791
+            14175,
+            23975,
+            24011,
+            24436
         ]
     },
     {
@@ -2171,7 +1971,10 @@
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/sages-stone.jpg",
         "ChildItemId": 14071,
         "allChildrenItems": [
-            20224
+            14175,
+            23975,
+            24011,
+            24436
         ]
     },
     {
@@ -2180,24 +1983,33 @@
         "DeviceName": "Stone of Binding",
         "ItemId": 14175,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/stone-of-binding.jpg",
-        "ChildItemId": 14071,
+        "ChildItemId": 14072,
         "allChildrenItems": []
     },
     {
         "ActiveFlag": "y",
         "RootItemId": 14071,
-        "DeviceName": "Void Stone",
-        "ItemId": 7791,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/void-stone.jpg",
-        "ChildItemId": 9853,
+        "DeviceName": "Archdruid's Fury",
+        "ItemId": 23975,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/archdruids-fury.jpg",
+        "ChildItemId": 14072,
         "allChildrenItems": []
     },
     {
         "ActiveFlag": "y",
         "RootItemId": 14071,
-        "DeviceName": "Stone of Fal",
-        "ItemId": 20224,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/stone-of-fal.jpg",
+        "DeviceName": "Abyssal Stone",
+        "ItemId": 24011,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/abyssal-stone.jpg",
+        "ChildItemId": 14072,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 14071,
+        "DeviceName": "Erosion",
+        "ItemId": 24436,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/erosion.jpg",
         "ChildItemId": 14072,
         "allChildrenItems": []
     },
@@ -2243,6 +2055,8 @@
             17357,
             17352,
             17355,
+            24824,
+            24825,
             17353,
             20694
         ]
@@ -2267,7 +2081,9 @@
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/knights-shield.jpg",
         "ChildItemId": 17349,
         "allChildrenItems": [
-            17355
+            17355,
+            24824,
+            24825
         ]
     },
     {
@@ -2288,7 +2104,10 @@
         "ItemId": 17355,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/pridwen.jpg",
         "ChildItemId": 17352,
-        "allChildrenItems": []
+        "allChildrenItems": [
+            24824,
+            24825
+        ]
     },
     {
         "ActiveFlag": "y",
@@ -2319,408 +2138,30 @@
     },
     {
         "ActiveFlag": "y",
+        "RootItemId": 17349,
+        "DeviceName": "Glorious Pridwen",
+        "ItemId": 24824,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/glorious-pridwen.jpg",
+        "ChildItemId": 17355,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 17349,
+        "DeviceName": "Reverent Pridwen",
+        "ItemId": 24825,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/reverent-pridwen.jpg",
+        "ChildItemId": 17355,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
         "RootItemId": 18194,
         "DeviceName": "Potion of Power",
         "ItemId": 18194,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/potion-of-power.jpg",
         "ChildItemId": 0,
         "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18200,
-        "DeviceName": "Hand of the Gods",
-        "ItemId": 18200,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/hand-of-the-gods.jpg",
-        "ChildItemId": 0,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Vision Shard",
-        "ItemId": 18307,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/vision-shard.jpg",
-        "ChildItemId": 0,
-        "allChildrenItems": [
-            21545,
-            21546,
-            21475,
-            21487,
-            21550,
-            21554,
-            21488,
-            21489,
-            21556,
-            21557,
-            21476,
-            21490,
-            21558,
-            21559,
-            21477,
-            21508,
-            21561,
-            21562,
-            21478,
-            21491,
-            21564,
-            21565,
-            21485,
-            21492,
-            21566,
-            21567,
-            21493,
-            21494,
-            21568,
-            21569,
-            21497,
-            21509,
-            21570,
-            21571,
-            21479,
-            21510,
-            21572,
-            21573,
-            21480,
-            21511,
-            21575,
-            21576,
-            21495,
-            21496,
-            21577,
-            21578,
-            21481,
-            21482,
-            21579,
-            21580,
-            21498,
-            21499
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Aegis Amulet",
-        "ItemId": 21545,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/aegis-amulet.jpg",
-        "ChildItemId": 18307,
-        "allChildrenItems": [
-            21546,
-            21475,
-            21487
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Belt of Frenzy",
-        "ItemId": 21550,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/belt-of-frenzy.jpg",
-        "ChildItemId": 18307,
-        "allChildrenItems": [
-            21554,
-            21488,
-            21489
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Blink Rune",
-        "ItemId": 21556,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/blink-rune.jpg",
-        "ChildItemId": 18307,
-        "allChildrenItems": [
-            21557,
-            21476,
-            21490
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Bracer of Radiance",
-        "ItemId": 21558,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/bracer-of-radiance.jpg",
-        "ChildItemId": 18307,
-        "allChildrenItems": [
-            21559,
-            21477,
-            21508
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Cursed Ankh",
-        "ItemId": 21561,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/cursed-ankh.jpg",
-        "ChildItemId": 18307,
-        "allChildrenItems": [
-            21562,
-            21478,
-            21491
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Heavenly Wings",
-        "ItemId": 21564,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/heavenly-wings.jpg",
-        "ChildItemId": 18307,
-        "allChildrenItems": [
-            21565,
-            21485,
-            21492
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Horrific Emblem",
-        "ItemId": 21566,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/horrific-emblem.jpg",
-        "ChildItemId": 18307,
-        "allChildrenItems": [
-            21567,
-            21493,
-            21494
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Magic Shell",
-        "ItemId": 21568,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/magic-shell.jpg",
-        "ChildItemId": 18307,
-        "allChildrenItems": [
-            21569,
-            21497,
-            21509
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Cloak of Meditation",
-        "ItemId": 21570,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/cloak-of-meditation.jpg",
-        "ChildItemId": 18307,
-        "allChildrenItems": [
-            21571,
-            21479,
-            21510
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Purification Beads",
-        "ItemId": 21572,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/purification-beads.jpg",
-        "ChildItemId": 18307,
-        "allChildrenItems": [
-            21573,
-            21480,
-            21511
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Shield of Thorns",
-        "ItemId": 21575,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/shield-of-thorns.jpg",
-        "ChildItemId": 18307,
-        "allChildrenItems": [
-            21576,
-            21495,
-            21496
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Sundering Spear",
-        "ItemId": 21577,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/sundering-spear.jpg",
-        "ChildItemId": 18307,
-        "allChildrenItems": [
-            21578,
-            21481,
-            21482
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Teleport Fragment",
-        "ItemId": 21579,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/teleport-fragment.jpg",
-        "ChildItemId": 18307,
-        "allChildrenItems": [
-            21580,
-            21498,
-            21499
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Greater Aegis Amulet",
-        "ItemId": 21546,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-aegis-amulet.jpg",
-        "ChildItemId": 21545,
-        "allChildrenItems": [
-            21475,
-            21487
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Greater Belt of Frenzy",
-        "ItemId": 21554,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-belt-of-frenzy.jpg",
-        "ChildItemId": 21550,
-        "allChildrenItems": [
-            21488,
-            21489
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Greater Blink Rune",
-        "ItemId": 21557,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-blink-rune.jpg",
-        "ChildItemId": 21556,
-        "allChildrenItems": [
-            21476,
-            21490
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Greater Bracer of Radiance",
-        "ItemId": 21559,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-bracer-of-radiance.jpg",
-        "ChildItemId": 21558,
-        "allChildrenItems": [
-            21477,
-            21508
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Greater Cursed Ankh",
-        "ItemId": 21562,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-cursed-ankh.jpg",
-        "ChildItemId": 21561,
-        "allChildrenItems": [
-            21478,
-            21491
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Greater Heavenly Wings",
-        "ItemId": 21565,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-heavenly-wings.jpg",
-        "ChildItemId": 21564,
-        "allChildrenItems": [
-            21485,
-            21492
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Greater Horrific Emblem",
-        "ItemId": 21567,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-horrific-emblem.jpg",
-        "ChildItemId": 21566,
-        "allChildrenItems": [
-            21493,
-            21494
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Greater Magic Shell",
-        "ItemId": 21569,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-magic-shell.jpg",
-        "ChildItemId": 21568,
-        "allChildrenItems": [
-            21497,
-            21509
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Greater Cloak of Meditation",
-        "ItemId": 21571,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-cloak-of-meditation.jpg",
-        "ChildItemId": 21570,
-        "allChildrenItems": [
-            21479,
-            21510
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Greater Purification Beads",
-        "ItemId": 21573,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-purification-beads.jpg",
-        "ChildItemId": 21572,
-        "allChildrenItems": [
-            21480,
-            21511
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Greater Shield of Thorns",
-        "ItemId": 21576,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-shield-of-thorns.jpg",
-        "ChildItemId": 21575,
-        "allChildrenItems": [
-            21495,
-            21496
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Greater Sundering Spear",
-        "ItemId": 21578,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-sundering-spear.jpg",
-        "ChildItemId": 21577,
-        "allChildrenItems": [
-            21481,
-            21482
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
-        "DeviceName": "Greater Teleport Fragment",
-        "ItemId": 21580,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-teleport-fragment.jpg",
-        "ChildItemId": 21579,
-        "allChildrenItems": [
-            21498,
-            21499
-        ]
     },
     {
         "ActiveFlag": "y",
@@ -2800,36 +2241,6 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 19490,
-        "DeviceName": "Bluestone Pendant",
-        "ItemId": 19490,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/bluestone-pendant.jpg",
-        "ChildItemId": 0,
-        "allChildrenItems": [
-            19491,
-            20689
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 19490,
-        "DeviceName": "Bluestone Brooch",
-        "ItemId": 19491,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/bluestone-brooch.jpg",
-        "ChildItemId": 19490,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 19490,
-        "DeviceName": "Corrupted Bluestone",
-        "ItemId": 20689,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/corrupted-bluestone.jpg",
-        "ChildItemId": 19490,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
         "RootItemId": 19492,
         "DeviceName": "Death's Toll",
         "ItemId": 19492,
@@ -2897,7 +2308,7 @@
         "ChildItemId": 0,
         "allChildrenItems": [
             19512,
-            19607
+            24203
         ]
     },
     {
@@ -2912,9 +2323,9 @@
     {
         "ActiveFlag": "y",
         "RootItemId": 19496,
-        "DeviceName": "Hero's Axe",
-        "ItemId": 19607,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/heros-axe.jpg",
+        "DeviceName": "Axe of Animosity",
+        "ItemId": 24203,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/axe-of-animosity.jpg",
         "ChildItemId": 19496,
         "allChildrenItems": []
     },
@@ -3077,7 +2488,7 @@
         "ChildItemId": 0,
         "allChildrenItems": [
             19635,
-            19636
+            24204
         ]
     },
     {
@@ -3092,9 +2503,9 @@
     {
         "ActiveFlag": "y",
         "RootItemId": 19634,
-        "DeviceName": "Animosity",
-        "ItemId": 19636,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/animosity.jpg",
+        "DeviceName": "Heroism",
+        "ItemId": 24204,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/heroism.jpg",
         "ChildItemId": 19634,
         "allChildrenItems": []
     },
@@ -3250,37 +2661,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 20698,
-        "DeviceName": "War Flag",
-        "ItemId": 20698,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/war-flag.jpg",
-        "ChildItemId": 0,
-        "allChildrenItems": [
-            19749,
-            20697
-        ]
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 20698,
-        "DeviceName": "Spartan Flag",
-        "ItemId": 19749,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/spartan-flag.jpg",
-        "ChildItemId": 20698,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 20698,
-        "DeviceName": "War Banner",
-        "ItemId": 20697,
-        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/war-banner.jpg",
-        "ChildItemId": 20698,
-        "allChildrenItems": []
-    },
-    {
-        "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Aegis of Judgement",
         "ItemId": 21475,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/aegis-of-judgement.jpg",
@@ -3289,7 +2670,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Aegis of Acceleration",
         "ItemId": 21487,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/aegis-of-acceleration.jpg",
@@ -3298,7 +2679,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Belt of the Berserker",
         "ItemId": 21488,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/belt-of-the-berserker.jpg",
@@ -3307,7 +2688,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Belt of Insatiable Hunger",
         "ItemId": 21489,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/belt-of-insatiable-hunger.jpg",
@@ -3316,7 +2697,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Scorching Blink Rune",
         "ItemId": 21476,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/scorching-blink-rune.jpg",
@@ -3325,7 +2706,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Corrupted Blink Rune",
         "ItemId": 21490,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/corrupted-blink-rune.jpg",
@@ -3334,7 +2715,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Bracer of Illumination",
         "ItemId": 21477,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/bracer-of-illumination.jpg",
@@ -3343,7 +2724,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Bracer of Brilliance",
         "ItemId": 21508,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/bracer-of-brilliance.jpg",
@@ -3352,7 +2733,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Drowned Ankh",
         "ItemId": 21478,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/drowned-ankh.jpg",
@@ -3361,7 +2742,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Blighted Ankh",
         "ItemId": 21491,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/blighted-ankh.jpg",
@@ -3370,7 +2751,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Entangling Wings",
         "ItemId": 21485,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/entangling-wings.jpg",
@@ -3379,7 +2760,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Hastened Wings",
         "ItemId": 21492,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/hastened-wings.jpg",
@@ -3388,7 +2769,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Emblem of Increasing Peril",
         "ItemId": 21493,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/emblem-of-increasing-peril.jpg",
@@ -3397,7 +2778,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Emblem of Trembling Terror",
         "ItemId": 21494,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/emblem-of-trembling-terror.jpg",
@@ -3406,7 +2787,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Fortifying Shell",
         "ItemId": 21497,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/fortifying-shell.jpg",
@@ -3415,7 +2796,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Phantom Shell",
         "ItemId": 21509,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/phantom-shell.jpg",
@@ -3424,7 +2805,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Cloak of the Avatar",
         "ItemId": 21479,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/cloak-of-the-avatar.jpg",
@@ -3433,7 +2814,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Cloak of the Ascetic",
         "ItemId": 21510,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/cloak-of-the-ascetic.jpg",
@@ -3442,7 +2823,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Chaotic Beads",
         "ItemId": 21480,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/chaotic-beads.jpg",
@@ -3451,7 +2832,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Temporal Beads",
         "ItemId": 21511,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/temporal-beads.jpg",
@@ -3460,7 +2841,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Thorns of Overgrowth",
         "ItemId": 21495,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/thorns-of-overgrowth.jpg",
@@ -3469,7 +2850,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Thorns of Sapping Strength",
         "ItemId": 21496,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/thorns-of-sapping-strength.jpg",
@@ -3478,7 +2859,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Sundering Blast",
         "ItemId": 21481,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/sundering-blast.jpg",
@@ -3487,7 +2868,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Sundering Siphon",
         "ItemId": 21482,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/sundering-siphon.jpg",
@@ -3496,7 +2877,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Persistent Teleport",
         "ItemId": 21498,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/persistent-teleport.jpg",
@@ -3505,7 +2886,7 @@
     },
     {
         "ActiveFlag": "y",
-        "RootItemId": 18307,
+        "RootItemId": 23795,
         "DeviceName": "Heroic Teleport",
         "ItemId": 21499,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/heroic-teleport.jpg",
@@ -3617,6 +2998,673 @@
         "ItemId": 23146,
         "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/griffonwing-earrings.jpg",
         "ChildItemId": 23148,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Shard Relic",
+        "ItemId": 23795,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/shard-relic.jpg",
+        "ChildItemId": 0,
+        "allChildrenItems": [
+            23831,
+            23832,
+            24013,
+            24014,
+            24015,
+            21545,
+            21546,
+            21475,
+            21487,
+            21550,
+            21554,
+            21488,
+            21489,
+            21556,
+            21557,
+            21476,
+            21490,
+            21558,
+            21559,
+            21477,
+            21508,
+            21561,
+            21562,
+            21478,
+            21491,
+            21564,
+            21565,
+            21485,
+            21492,
+            21566,
+            21567,
+            21493,
+            21494,
+            21568,
+            21569,
+            21497,
+            21509,
+            21570,
+            21571,
+            21479,
+            21510,
+            21572,
+            21573,
+            21480,
+            21511,
+            21575,
+            21576,
+            21495,
+            21496,
+            21577,
+            21578,
+            21481,
+            21482,
+            21579,
+            21580,
+            21498,
+            21499
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Carapace Shard",
+        "ItemId": 23831,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/carapace-shard.jpg",
+        "ChildItemId": 23795,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Vision Shard",
+        "ItemId": 23832,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/vision-shard.jpg",
+        "ChildItemId": 23795,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Horn Shard",
+        "ItemId": 24013,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/horn-shard.jpg",
+        "ChildItemId": 23795,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Claw Shard",
+        "ItemId": 24014,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/claw-shard.jpg",
+        "ChildItemId": 23795,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Wing Shard",
+        "ItemId": 24015,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/wing-shard.jpg",
+        "ChildItemId": 23795,
+        "allChildrenItems": [
+            21545,
+            21546,
+            21475,
+            21487,
+            21550,
+            21554,
+            21488,
+            21489,
+            21556,
+            21557,
+            21476,
+            21490,
+            21558,
+            21559,
+            21477,
+            21508,
+            21561,
+            21562,
+            21478,
+            21491,
+            21564,
+            21565,
+            21485,
+            21492,
+            21566,
+            21567,
+            21493,
+            21494,
+            21568,
+            21569,
+            21497,
+            21509,
+            21570,
+            21571,
+            21479,
+            21510,
+            21572,
+            21573,
+            21480,
+            21511,
+            21575,
+            21576,
+            21495,
+            21496,
+            21577,
+            21578,
+            21481,
+            21482,
+            21579,
+            21580,
+            21498,
+            21499
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Aegis Amulet",
+        "ItemId": 21545,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/aegis-amulet.jpg",
+        "ChildItemId": 24015,
+        "allChildrenItems": [
+            21546,
+            21475,
+            21487
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Belt of Frenzy",
+        "ItemId": 21550,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/belt-of-frenzy.jpg",
+        "ChildItemId": 24015,
+        "allChildrenItems": [
+            21554,
+            21488,
+            21489
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Blink Rune",
+        "ItemId": 21556,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/blink-rune.jpg",
+        "ChildItemId": 24015,
+        "allChildrenItems": [
+            21557,
+            21476,
+            21490
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Bracer of Radiance",
+        "ItemId": 21558,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/bracer-of-radiance.jpg",
+        "ChildItemId": 24015,
+        "allChildrenItems": [
+            21559,
+            21477,
+            21508
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Cursed Ankh",
+        "ItemId": 21561,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/cursed-ankh.jpg",
+        "ChildItemId": 24015,
+        "allChildrenItems": [
+            21562,
+            21478,
+            21491
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Heavenly Wings",
+        "ItemId": 21564,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/heavenly-wings.jpg",
+        "ChildItemId": 24015,
+        "allChildrenItems": [
+            21565,
+            21485,
+            21492
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Horrific Emblem",
+        "ItemId": 21566,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/horrific-emblem.jpg",
+        "ChildItemId": 24015,
+        "allChildrenItems": [
+            21567,
+            21493,
+            21494
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Magic Shell",
+        "ItemId": 21568,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/magic-shell.jpg",
+        "ChildItemId": 24015,
+        "allChildrenItems": [
+            21569,
+            21497,
+            21509
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Cloak of Meditation",
+        "ItemId": 21570,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/cloak-of-meditation.jpg",
+        "ChildItemId": 24015,
+        "allChildrenItems": [
+            21571,
+            21479,
+            21510
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Purification Beads",
+        "ItemId": 21572,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/purification-beads.jpg",
+        "ChildItemId": 24015,
+        "allChildrenItems": [
+            21573,
+            21480,
+            21511
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Shield of Thorns",
+        "ItemId": 21575,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/shield-of-thorns.jpg",
+        "ChildItemId": 24015,
+        "allChildrenItems": [
+            21576,
+            21495,
+            21496
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Sundering Spear",
+        "ItemId": 21577,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/sundering-spear.jpg",
+        "ChildItemId": 24015,
+        "allChildrenItems": [
+            21578,
+            21481,
+            21482
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Teleport Fragment",
+        "ItemId": 21579,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/teleport-fragment.jpg",
+        "ChildItemId": 24015,
+        "allChildrenItems": [
+            21580,
+            21498,
+            21499
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23821,
+        "DeviceName": "Runic Bomb",
+        "ItemId": 23821,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/runic-bomb.jpg",
+        "ChildItemId": 0,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23855,
+        "DeviceName": "Bluestone Pendant",
+        "ItemId": 23855,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/bluestone-pendant.jpg",
+        "ChildItemId": 0,
+        "allChildrenItems": [
+            23859,
+            23860
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23855,
+        "DeviceName": "Bluestone Brooch",
+        "ItemId": 23859,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/bluestone-brooch.jpg",
+        "ChildItemId": 23855,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23855,
+        "DeviceName": "Corrupted Bluestone",
+        "ItemId": 23860,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/corrupted-bluestone.jpg",
+        "ChildItemId": 23855,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Greater Aegis Amulet",
+        "ItemId": 21546,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-aegis-amulet.jpg",
+        "ChildItemId": 21545,
+        "allChildrenItems": [
+            21475,
+            21487
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Greater Belt of Frenzy",
+        "ItemId": 21554,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-belt-of-frenzy.jpg",
+        "ChildItemId": 21550,
+        "allChildrenItems": [
+            21488,
+            21489
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Greater Blink Rune",
+        "ItemId": 21557,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-blink-rune.jpg",
+        "ChildItemId": 21556,
+        "allChildrenItems": [
+            21476,
+            21490
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Greater Bracer of Radiance",
+        "ItemId": 21559,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-bracer-of-radiance.jpg",
+        "ChildItemId": 21558,
+        "allChildrenItems": [
+            21477,
+            21508
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Greater Cursed Ankh",
+        "ItemId": 21562,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-cursed-ankh.jpg",
+        "ChildItemId": 21561,
+        "allChildrenItems": [
+            21478,
+            21491
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Greater Heavenly Wings",
+        "ItemId": 21565,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-heavenly-wings.jpg",
+        "ChildItemId": 21564,
+        "allChildrenItems": [
+            21485,
+            21492
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Greater Horrific Emblem",
+        "ItemId": 21567,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-horrific-emblem.jpg",
+        "ChildItemId": 21566,
+        "allChildrenItems": [
+            21493,
+            21494
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Greater Magic Shell",
+        "ItemId": 21569,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-magic-shell.jpg",
+        "ChildItemId": 21568,
+        "allChildrenItems": [
+            21497,
+            21509
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Greater Cloak of Meditation",
+        "ItemId": 21571,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-cloak-of-meditation.jpg",
+        "ChildItemId": 21570,
+        "allChildrenItems": [
+            21479,
+            21510
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Greater Purification Beads",
+        "ItemId": 21573,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-purification-beads.jpg",
+        "ChildItemId": 21572,
+        "allChildrenItems": [
+            21480,
+            21511
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Greater Shield of Thorns",
+        "ItemId": 21576,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-shield-of-thorns.jpg",
+        "ChildItemId": 21575,
+        "allChildrenItems": [
+            21495,
+            21496
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Greater Sundering Spear",
+        "ItemId": 21578,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-sundering-spear.jpg",
+        "ChildItemId": 21577,
+        "allChildrenItems": [
+            21481,
+            21482
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 23795,
+        "DeviceName": "Greater Teleport Fragment",
+        "ItemId": 21580,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/greater-teleport-fragment.jpg",
+        "ChildItemId": 21579,
+        "allChildrenItems": [
+            21498,
+            21499
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 24195,
+        "DeviceName": "War Flag",
+        "ItemId": 24195,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/war-flag.jpg",
+        "ChildItemId": 0,
+        "allChildrenItems": [
+            19749,
+            24196
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 24195,
+        "DeviceName": "Spartan Flag",
+        "ItemId": 19749,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/spartan-flag.jpg",
+        "ChildItemId": 24195,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 24195,
+        "DeviceName": "War Banner",
+        "ItemId": 24196,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/war-banner.jpg",
+        "ChildItemId": 24195,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 24427,
+        "DeviceName": "Restoring Wand",
+        "ItemId": 24427,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/restoring-wand.jpg",
+        "ChildItemId": 0,
+        "allChildrenItems": [
+            9857,
+            24408,
+            24418,
+            24421
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 24427,
+        "DeviceName": "Rod of Healing",
+        "ItemId": 9857,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/rod-of-healing.jpg",
+        "ChildItemId": 24427,
+        "allChildrenItems": [
+            24408,
+            24418,
+            24421
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 24427,
+        "DeviceName": "Rod of Asclepius",
+        "ItemId": 24408,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/rod-of-asclepius.jpg",
+        "ChildItemId": 9857,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 24427,
+        "DeviceName": "Rejuvenating Heart",
+        "ItemId": 24418,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/rejuvenating-heart.jpg",
+        "ChildItemId": 9857,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 24427,
+        "DeviceName": "Last Gasp",
+        "ItemId": 24421,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/last-gasp.jpg",
+        "ChildItemId": 9857,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 24428,
+        "DeviceName": "Blessed Scepter",
+        "ItemId": 24428,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/blessed-scepter.jpg",
+        "ChildItemId": 0,
+        "allChildrenItems": [
+            24429,
+            24409,
+            24422,
+            24423
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 24428,
+        "DeviceName": "Splendid Scepter",
+        "ItemId": 24429,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/splendid-scepter.jpg",
+        "ChildItemId": 24428,
+        "allChildrenItems": [
+            24409,
+            24422,
+            24423
+        ]
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 24428,
+        "DeviceName": "Caduceus Club",
+        "ItemId": 24409,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/caduceus-club.jpg",
+        "ChildItemId": 24429,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 24428,
+        "DeviceName": "Vital Amplifier",
+        "ItemId": 24422,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/vital-amplifier.jpg",
+        "ChildItemId": 24429,
+        "allChildrenItems": []
+    },
+    {
+        "ActiveFlag": "y",
+        "RootItemId": 24428,
+        "DeviceName": "Sekhmet's Scepter",
+        "ItemId": 24423,
+        "itemIcon_URL": "https://webcdn.hirezstudios.com/smite/item-icons/sekhmets-scepter.jpg",
+        "ChildItemId": 24429,
         "allChildrenItems": []
     }
 ]
