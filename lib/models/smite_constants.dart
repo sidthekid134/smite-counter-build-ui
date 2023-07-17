@@ -1,6 +1,8 @@
 // ignore: constant_identifier_names
 enum SmiteRole {
-  solo('Solo'),
+  solo(
+    'Solo',
+  ),
   mid('Mid'),
   jungle('Jungle'),
   carry('Carry'),

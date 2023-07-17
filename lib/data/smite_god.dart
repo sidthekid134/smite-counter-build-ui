@@ -1,0 +1,1 @@
+enum SmiteGod { Chaac, Neith }

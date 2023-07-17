@@ -42,6 +42,7 @@ dependencies:
   easy_autocomplete: ^1.6.0
   autocomplete_textfield: ^2.0.1
   cached_network_image: ^3.2.1
+  provider: ^6.0.5
 
 dev_dependencies:
   flutter_test:
@@ -70,6 +71,11 @@ flutter:
     - assets/resultData.json
     - assets/godsMetadata.json
     - assets/itemsMetadata.json
+    - assets/classes/carry-logo.png
+    - assets/classes/jungle-logo.png
+    - assets/classes/support-logo.png
+    - assets/classes/mid-logo.png
+    - assets/classes/solo-logo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
