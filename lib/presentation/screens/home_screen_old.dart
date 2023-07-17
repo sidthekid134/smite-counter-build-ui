@@ -7,7 +7,7 @@ import 'package:smite_counter_build/models/counter_build_data.dart';
 import 'package:smite_counter_build/models/gods_metadata.dart';
 import 'package:smite_counter_build/models/items_metadata.dart';
 import 'package:smite_counter_build/models/smite_constants.dart';
-import 'package:smite_counter_build/presentation/widgets/god_selector.dart';
+import 'package:smite_counter_build/presentation/screens/god_selector.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);

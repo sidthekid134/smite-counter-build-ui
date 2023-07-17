@@ -19,7 +19,7 @@ class PlayerRoleSelector extends StatelessWidget {
           Text(
             "Select Your Role:",
             style: TextStyle(
-              color: Theme.of(context).colorScheme.primary,
+              color: Theme.of(context).colorScheme.secondary,
               fontWeight: FontWeight.bold,
               fontSize: 15,
             ),

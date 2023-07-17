@@ -26,6 +26,10 @@ class _RoleCardState extends State<RoleCard> {
         });
       },
       onTap: () => context.read<SmiteCubit>().addUserRole(widget.roleName),
+      customBorder: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(17),
+        side: BorderSide.none,
+      ),
       child: Card(
         color: isHovering
             ? Colors.lightBlue

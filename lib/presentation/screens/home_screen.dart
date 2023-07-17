@@ -10,8 +10,9 @@ import 'package:smite_counter_build/models/gods_metadata.dart';
 import 'package:smite_counter_build/models/items_metadata.dart';
 import 'package:smite_counter_build/models/smite_constants.dart';
 import 'package:smite_counter_build/models/user_selection_data.dart';
+import 'package:smite_counter_build/presentation/screens/build_shower.dart';
 import 'package:smite_counter_build/presentation/screens/player_role_selector.dart';
-import 'package:smite_counter_build/presentation/widgets/god_selector.dart';
+import 'package:smite_counter_build/presentation/screens/god_selector.dart';
 import 'package:smite_counter_build/presentation/widgets/role_card.dart';
 import 'package:smite_counter_build/presentation/widgets/selected_data_shower.dart';
 
@@ -89,13 +90,26 @@ class _HomeScreenState extends State<HomeScreen> {
                             )
                           : Container(),
                       const SizedBox(width: 60),
-                      // playerGod != null
-                      //     ? SelectedDataShower(
-                      //         assetUrl: "classes/support-logo.png",
-                      //         assetText: "Support",
-                      //         headerText: "Opponent Role: ",
-                      //       )
-                      //     : Container(),
+                      state.playerGod != null
+                          ? SelectedDataShower(
+                              assetUrl: state.playerGod!.godIconURL,
+                              assetText: state.playerGod!.name,
+                              headerText: "Your God: ",
+                              onTap: () =>
+                                  context.read<SmiteCubit>().removePlayerGod(),
+                            )
+                          : Container(),
+                      const SizedBox(width: 60),
+                      state.opponentGod != null
+                          ? SelectedDataShower(
+                              assetUrl: state.opponentGod!.godIconURL,
+                              assetText: state.opponentGod!.name,
+                              headerText: "Opponent God: ",
+                              onTap: () => context
+                                  .read<SmiteCubit>()
+                                  .removeOpponentGod(),
+                            )
+                          : Container(),
                     ],
                   ),
                   const SizedBox(height: 20),
@@ -110,6 +124,30 @@ class _HomeScreenState extends State<HomeScreen> {
                       : Container(),
                   state.playerRole == null
                       ? const PlayerRoleSelector()
+                      : Container(),
+                  state.playerRole != null && state.playerGod == null
+                      ? GodSelector(
+                          headerText: "Select Your God:",
+                          godsMetaData: godsMetadata ?? [],
+                          onSaveFunction:
+                              context.read<SmiteCubit>().addPlayerGod,
+                        )
+                      : Container(),
+                  state.playerRole != null &&
+                          state.playerGod != null &&
+                          state.opponentGod == null
+                      ? GodSelector(
+                          headerText: "Select Your Opponent's God: ",
+                          godsMetaData: godsMetadata ?? [],
+                          onSaveFunction:
+                              context.read<SmiteCubit>().addOpponentGod,
+                        )
+                      : Container(),
+                  state.counterBuildData != null
+                      ? BuildShower(
+                          counterBuildData: state.counterBuildData!,
+                          itemsMetadata: itemsMetadata!,
+                        )
                       : Container(),
                 ],
               ),

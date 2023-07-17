@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 class SelectedDataShower extends StatelessWidget {
@@ -16,6 +17,14 @@ class SelectedDataShower extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Widget imageWidget;
+
+    if (assetUrl.contains("http")) {
+      imageWidget = CachedNetworkImage(imageUrl: assetUrl, height: 50);
+    } else {
+      imageWidget = Image.asset(assetUrl, height: 50);
+    }
+
     return SizedBox(
       // height: 30,
       child: Row(
@@ -34,14 +43,15 @@ class SelectedDataShower extends StatelessWidget {
               borderRadius: BorderRadius.circular(17.0),
             ),
             child: InkWell(
+              customBorder: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(17),
+                side: BorderSide.none,
+              ),
               onTap: onTap,
               child: Padding(
                 padding: const EdgeInsets.all(20),
                 child: Row(children: [
-                  Image.asset(
-                    assetUrl,
-                    height: 50,
-                  ),
+                  imageWidget,
                   const SizedBox(width: 20),
                   Text(
                     assetText,
